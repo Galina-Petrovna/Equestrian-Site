@@ -35,7 +35,7 @@ const Gallery = () => {
                 <img className={style.img}
                 key={index}
                 src={image}
-                alt={`Image ${index + 1}`}
+                // alt={`Image ${index + 1}`}
                 onClick={() => toogleZoom(index)}
                 />
             ))}
